@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section
         className="relative h-96 flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/modern-logistics-office.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="text-center text-white max-w-4xl px-4">
@@ -16,8 +16,6 @@ export default function AboutPage() {
           <p className="text-xl text-gray-200">Advanced Solutions for Modern Logistics Challenges</p>
         </div>
       </section>
-
-      {/* Company Overview */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -36,13 +34,11 @@ export default function AboutPage() {
               <Button size="lg">Learn More</Button>
             </div>
             <div className="relative">
-              <img src="/modern-warehouse-logistics.png" alt="Horizons team" className="rounded-lg shadow-lg w-full" />
+              <Image src="/images/elementor-placeholder-image.png" alt="Horizons team" className="rounded-lg shadow-lg w-full" width={500} height={500} />
             </div>
           </div>
         </div>
       </section>
-
-      {/* Mission & Vision */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -51,7 +47,6 @@ export default function AboutPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="bg-card border-border">
               <CardContent className="p-8">
@@ -63,7 +58,6 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-card-foreground mb-4">Our Vision</h3>
@@ -77,8 +71,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Values Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -87,7 +79,6 @@ export default function AboutPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -98,7 +89,6 @@ export default function AboutPage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
               </p>
             </div>
-
             <div className="text-center">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl text-primary-foreground">🤝</span>
@@ -108,7 +98,6 @@ export default function AboutPage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
               </p>
             </div>
-
             <div className="text-center">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl text-primary-foreground">🚀</span>
@@ -121,12 +110,10 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Team Section with Background */}
       <section
         className="py-20 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/logistics-office.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="container mx-auto px-4 relative z-10">
@@ -136,7 +123,6 @@ export default function AboutPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6 text-center">
@@ -150,7 +136,6 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
@@ -163,7 +148,6 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6 text-center">
                 <div className="w-24 h-24 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
@@ -179,15 +163,12 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Company Stats */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Our Impact</h2>
             <p className="text-xl text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold text-primary mb-2">15+</div>

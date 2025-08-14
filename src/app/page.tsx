@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section
         className="relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/modern-logistics-warehouse-sunset.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="text-center text-white max-w-4xl px-4">
@@ -22,8 +22,6 @@ export default function HomePage() {
           </Button>
         </div>
       </section>
-
-      {/* Services Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -33,7 +31,6 @@ export default function HomePage() {
               exercitation.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
@@ -46,7 +43,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -58,7 +54,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -73,12 +68,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* About Preview Section with Background Image */}
       <section
         className="py-20 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/placeholder-q9mwx.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="container mx-auto px-4 relative z-10">
@@ -99,8 +92,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* How We Work Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -110,7 +101,6 @@ export default function HomePage() {
               dolore magna aliqua.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -121,7 +111,6 @@ export default function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
               </p>
             </div>
-
             <div>
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl text-primary-foreground font-bold">2</span>
@@ -131,7 +120,6 @@ export default function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
               </p>
             </div>
-
             <div>
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl text-primary-foreground font-bold">3</span>
@@ -141,7 +129,6 @@ export default function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
               </p>
             </div>
-
             <div>
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl text-primary-foreground font-bold">4</span>
@@ -154,12 +141,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Global Reach Section with Background Image */}
       <section
         className="py-20 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/placeholder-1x7bp.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="container mx-auto px-4 relative z-10">
@@ -186,8 +171,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Industries We Serve Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -209,7 +192,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
@@ -221,7 +203,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
@@ -233,7 +214,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
@@ -245,7 +225,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
@@ -257,7 +236,6 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
@@ -272,8 +250,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Our Advantages Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -283,7 +259,6 @@ export default function HomePage() {
               dolore magna aliqua.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="space-y-8">
@@ -299,7 +274,6 @@ export default function HomePage() {
                     </p>
                   </div>
                 </div>
-
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-sm text-primary-foreground">✓</span>
@@ -312,7 +286,6 @@ export default function HomePage() {
                     </p>
                   </div>
                 </div>
-
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-sm text-primary-foreground">✓</span>
@@ -325,7 +298,6 @@ export default function HomePage() {
                     </p>
                   </div>
                 </div>
-
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-sm text-primary-foreground">✓</span>
@@ -340,23 +312,22 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-
             <div className="relative">
-              <img
-                src="/modern-logistics-warehouse.png"
+              <Image
+                src="/images/elementor-placeholder-image.png"
                 alt="Advanced logistics solutions"
                 className="rounded-lg shadow-lg w-full"
+                width={500}
+                height={500}
               />
             </div>
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section with Background Image */}
       <section
         className="py-20 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/logistics-team-meeting.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="container mx-auto px-4 relative z-10">
@@ -366,7 +337,6 @@ export default function HomePage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6">
@@ -383,7 +353,6 @@ export default function HomePage() {
                 </div>
               </CardContent>
             </Card>
-
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6">
                 <div className="mb-4">
@@ -399,7 +368,6 @@ export default function HomePage() {
                 </div>
               </CardContent>
             </Card>
-
             <Card className="bg-card/90 backdrop-blur-sm border-border">
               <CardContent className="p-6">
                 <div className="mb-4">

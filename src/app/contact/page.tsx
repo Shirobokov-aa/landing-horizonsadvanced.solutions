@@ -3,11 +3,10 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function ContactPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section
         className="relative h-96 flex items-center justify-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/contact-logistics-office.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="text-center text-white max-w-4xl px-4">
@@ -15,8 +14,6 @@ export default function ContactPage() {
           <p className="text-xl text-gray-200">Get in Touch with Horizons Advanced Solutions</p>
         </div>
       </section>
-
-      {/* Contact Information */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -26,9 +23,7 @@ export default function ContactPage() {
               exercitation.
             </p>
           </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Details */}
             <div className="space-y-8">
               <Card className="bg-card border-border">
                 <CardContent className="p-8">
@@ -49,7 +44,6 @@ export default function ContactPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card className="bg-card border-border">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
@@ -67,7 +61,6 @@ export default function ContactPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card className="bg-card border-border">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
@@ -86,8 +79,6 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
             </div>
-
-            {/* Map Placeholder */}
             <div className="space-y-8">
               <Card className="bg-card border-border">
                 <CardContent className="p-0">
@@ -106,7 +97,6 @@ export default function ContactPage() {
                   </div>
                 </CardContent>
               </Card>
-
               <Card className="bg-card border-border">
                 <CardContent className="p-8">
                   <h3 className="text-xl font-semibold text-card-foreground mb-4">Why Choose Our Location?</h3>
@@ -122,8 +112,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* Services Areas */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -132,7 +120,6 @@ export default function ContactPage() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
@@ -145,7 +132,6 @@ export default function ContactPage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -157,7 +143,6 @@ export default function ContactPage() {
                 </p>
               </CardContent>
             </Card>
-
             <Card className="bg-card border-border">
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
@@ -172,12 +157,10 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* Additional Information */}
       <section
         className="py-20 bg-cover bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/logistics-contact-bg.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/elementor-placeholder-image.png')`,
         }}
       >
         <div className="container mx-auto px-4 relative z-10">
